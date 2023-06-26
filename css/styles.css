@@ -1,0 +1,211 @@
+:root {
+    --brand-color: #4d5ae5;
+    --primary-text-color: #434455;
+    --title-text-color: #2E2F42;
+    --background-color-main: white;
+    --background-color-dark: #2E2F42;
+    --background-color-cloud: #F4F4FD;
+    --link-color-change: #404bbf;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: var(--background-color-main);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--brand-color);
+}
+
+.logo.link {
+    text-decoration: none;
+}
+.second-part {
+    color: var(--title-text-color);
+}
+
+.logo:hover {
+    color: var(--brand-color);
+}
+
+.link {
+    text-decoration: none;
+}
+.list {
+    list-style: none;
+}
+
+.first-page.link.current:hover,
+.first-page.link.current:focus {
+    color: #404bbf;
+}
+.list .link.current {
+    color:var(--link-color-change)
+}
+.first-page.link.current {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+}
+
+.address.list {
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+.link.link.email {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+.link.link.email:hover,
+.link.link.email:focus {
+    color: #404bbf;
+}
+.headline { 
+    background-color: var(--title-text-color);
+}
+.headline-title {
+    font-size: 56px;
+    line-height: 1.07;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: white;
+}
+.button.primary {
+    background-color: #4D5AE5;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: white;
+    cursor: pointer;
+}
+.button.primary:hover,
+.button.primary:focus {
+    background-color: #404BBF;
+}
+.adv-table.list {
+    list-style: none;
+}
+.adv-title {
+    visibility: hidden;
+}
+.adv-table-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color)
+}
+.adv-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+.section-title {
+    font-size: 36px;
+    line-height: 1.11;
+    color: var(--title-text-color);
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: var(--title-text-color);  
+}
+.section-team {
+    background-color: #F4F4FD;
+}
+.section-title-team {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--title-text-color);
+}
+.section-img-team {
+    background-color: #FFFFFF;
+}
+.list-heading {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+}
+.list-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+.page-footer {
+    background-color: var(--title-text-color);
+}
+
+.footer-second-part {
+    color: #f4f4fd;
+}
+
+.slogan {
+    line-height: 1.5;
+    color: var(--background-color-cloud);
+    letter-spacing: 0.02em;
+}
+
+/* Page Portfolio*/
+
+
+.button-portfolio.all {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--brand-color);
+    background-color: var(--background-color-cloud);
+    cursor: pointer;
+}
+
+.button-portfolio.all:hover,
+.button-portfolio.all:focus {
+    color: white;
+    background-color: #404BBF;
+}
+
+.link-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:var(--background-color-dark);
+}
+
+.list .link {
+    text-decoration: none;
+}
+.link-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
