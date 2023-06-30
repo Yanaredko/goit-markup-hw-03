@@ -214,6 +214,9 @@ gap: 40px;
     background-color: #404BBF;
 }
 
+section.adv {
+    padding: 120px 0 0 0;
+}
 .adv-container {
     width: 1128px;
 }
