@@ -88,8 +88,8 @@ ul {
 
 .header-container.container {
     width: 1158px;
-    margin: 0 auto;
     padding: 0 15px; 
+    margin: 0 auto;
 }
 
 .nav-container {
@@ -351,8 +351,15 @@ gap: 24px;
 row-gap: 48px;
 }
 
-.cart-set-item {
+.section-img-team.cart-set-item {
 width: calc((100%-72px)/4);
+}
+
+.list.cart-set {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+
 }
 
 /* Page Portfolio*/
@@ -416,5 +423,5 @@ width: calc((100%-72px)/4);
 
 /* FLEX GRID PORTFOLIO */
 .cart-set-filter {
-    flex-basis: calc((100%-var(--indent)*var(var(--items-portfolio)-1)/var(--items-portfolio)));
+    width: calc((100%-48px)/3);
 }
