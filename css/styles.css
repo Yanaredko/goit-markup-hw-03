@@ -323,6 +323,10 @@ adv-neighbour:not(:last-child) {
     margin-bottom: 17.5px;
 }
 
+.link-footer {
+    margin-bottom: 16px;
+}
+
 .slogan {
     line-height: 1.5;
     color: var(--background-color-cloud);
