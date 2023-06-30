@@ -45,6 +45,7 @@ p {
 }
 
 .container {
+    display: flex;
     margin: 0 auto;
     width: 1158px;
     padding-left: 15px;
@@ -87,10 +88,10 @@ ul {
     }
 
 .header-container.container {
-    display: block;
-    margin: 0 auto;
+    display: flex;
     width: 1158px;
-    padding: 0 15px; 
+    padding: 0 15px;
+    margin: 0 auto;
     }
 
 .nav-container {
