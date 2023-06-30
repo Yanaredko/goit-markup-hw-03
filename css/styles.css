@@ -323,7 +323,7 @@ adv-neighbour:not(:last-child) {
     margin-bottom: 17.5px;
 }
 
-.link-footer {
+.logo.link.link-footer {
     margin-bottom: 16px;
 }
 
