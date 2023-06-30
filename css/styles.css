@@ -57,6 +57,7 @@ img {
 
 ul {
     padding: 0;
+    margin: 0;
 }
 
 .visually-hidden {
@@ -73,29 +74,14 @@ ul {
     overflow: hidden;
 }
 
-.header.container {
+.header {
     border-bottom: 1px solid #e7e9fc;
 }
+
 .header-container {
-    margin: 0 auto;
-    width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
     display: flex;
-    align-items: center;
-    flex-direction: row;
     }
 
-.header-container.container {
-    display: flex;
-    width: 1158px;
-    padding: 0 15px;
-    margin: 0 auto;
-    }
-
-.header-container.container.container {
-    margin: 0 auto;
-}
 
 .nav-container {
     display: flex;
@@ -119,7 +105,6 @@ ul {
     margin: 0;
     margin-right: 76px;
     display: inline-block;
-    margin-bottom: 16px;
 }
 .second-part {
     color: var(--title-text-color);
