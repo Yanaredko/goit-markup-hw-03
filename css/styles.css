@@ -90,14 +90,14 @@ ul {
     margin: 0, auto;
     width: 1158px;
     padding: 0 15px; 
-    
-}
+    }
 
 .nav-container {
     display: flex;
     align-items: center;
     margin-right: auto;
-}
+    }
+    
 .logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
@@ -429,6 +429,9 @@ row-gap: 48px;
 
 .list.cart-set-portfolio {
     row-gap: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
 }
 
 .cart-set-filter {
